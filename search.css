@@ -1,0 +1,163 @@
+#a1{
+    background-color:black;
+    width: 100px;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: 5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#a2{
+    list-style: none;
+    position: relative;
+    display: table;
+    font-size: 12px;
+    width: 300px;
+    padding: 15px;
+}
+#a1:hover{
+    width:185px;
+    transition: all 0.5s ease;
+    z-index: 9;
+}
+#a1:hover #img{
+    margin-left: 40px;
+}
+#a1 #img{
+    width: 60px;
+    margin-left:13px;
+}
+a{
+    position:relative;
+    color: black;
+    font-size: 14px;
+    display: table;
+    width: 345px;
+    padding: 10px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+#a1 ul li .bi{
+    position: relative;
+    color: white;
+    width: 85px;
+    height: 23px;
+    top: 12px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1.5cm;
+}
+.a3{
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+body{
+    background-color:black;
+}
+a:hover{
+    transform: scale(1.1);
+    opacity: 5;
+}
+#sea{
+    position: relative;
+    text-indent: 10px;
+    top: 1cm;
+    width: 30cm;
+    height:1cm;
+    margin-left: 150px;
+    background-color:white;
+    color: black;
+    border-radius: 30PX;
+    border-color: white;
+    border-style:double;
+}
+#but{
+    position: absolute;
+    top: 40px;
+}
+#img1{
+    margin-left:45%;
+    height: 50%;
+    margin-top: 1%;
+    width: 80%;
+    border-radius: 5%;
+    object-fit: fill;
+}
+#img2{
+    margin-left:45%;
+    height: 70%;
+    margin-top: -20.5%;
+    width: 80%;
+    border-radius: 5%;
+    object-fit: fill;
+}
+#searchdiv{
+    margin-top: 1.3cm;
+}
+.card-img-top{
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 18%;
+    width: 80%;
+    border-radius: 5%;
+    object-fit: fill;
+}
+.card-img-top2{
+    height: 70%;
+    margin-left: 18%;
+    margin-top: -20%;
+    width: 80%;
+    border-radius: 5%;
+    object-fit: fill;
+}
+#moviediv,#trailerdiv{
+    display: none;
+    margin-top: 1.2cm;
+}
+#names{
+    background-color: aqua;
+}
+#lm{
+    margin-left: -0.5%;
+}
+.poster{
+    width: 20%;
+    height: 350px;
+    object-fit: fill;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+.motitle{
+    color: white;
+    position: relative;
+    float: right;
+    right: 24%;
+    top: 25%;
+}
+#simg{
+    height: 40px;
+    position: fixed;
+    right: 29%;
+    margin-top: -0.4%;
+}
+#imdb{
+    position: fixed;
+    float: right;
+    right: 24%;
+    top: 30%;
+}
+#title{
+    position:relative;
+    left: 15%;
+    text-align: center;
+}
+#error{
+    color: white;
+    text-align: center;
+}
