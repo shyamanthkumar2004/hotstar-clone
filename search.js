@@ -40,7 +40,7 @@ function search1() {
 var e1=document.getElementById("searchdiv");
 var e3=document.getElementById("trailerdiv");
 var videos=["https://www.youtube.com/embed/Yxm9BUCgof4","https://www.youtube.com/embed/k5lFv_h7Rnw","https://www.youtube.com/embed/bUR_FKt7Iso",
-"https://www.youtube.com/embed/cW2RWZCUot4","https://www.youtube.com/embed/bk_5n4mS-lk","https://www.youtube.com/embed/XkCFtP_52vM",
+"https://www.youtube.com/embed/cW2RWZCUot4","https://www.youtube.com/embed/ozRCVFgsrbY","https://www.youtube.com/embed/XkCFtP_52vM",
 "https://www.youtube.com/embed/3L5X46j2t90","https://www.youtube.com/embed/oBlxdr1KbEA"];
 function playtrailer(col){
     e1.style.visibility="hidden";
