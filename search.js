@@ -12,7 +12,7 @@ function search1() {
         else{
         e1.style.visibility="hidden";
         e3.style.visibility="hidden";
-        let url=`https://www.omdbapi.com/?t=${v}&apikey=e4b83208`;
+        let url=`https://www.omdbapi.com/?s=${v}&apikey=e4b83208`;
         fetch(url)
             .then((resp)=>resp.json())
             .then((data)=>{
